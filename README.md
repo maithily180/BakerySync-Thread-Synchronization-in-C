@@ -66,16 +66,3 @@ Each action should be printed in chronological order with the format:
 Example actions for customers: enters, sits, requests cake, pays,
 leaves. Example actions for chefs: bakes for Customer X, accepts
 payment for Customer X.
-
-Notes and testing
------------------
-- Use proper synchronization primitives (mutexes, condition variables,
-  semaphores) to ensure the ordering and constraints described above.
-- Make sure to honor the non-preemptive timing: once an action starts,
-  it must run for its full duration.
-
-Academic honesty & LLM use
--------------------------
-If any code or text was produced using an LLM, follow the course rules
-for disclosure and saving prompts/responses.
-# Fighting for the resources
